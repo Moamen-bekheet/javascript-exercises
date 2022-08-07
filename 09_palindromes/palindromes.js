@@ -9,6 +9,8 @@ const palindromes = function (text) {
         }
     }
     // this part is used to get valid characters out of argument provided by the function client
+
+    // from this point on, the upcoming code provides the logic for verifying that the array of valid characters forms a palindrome 
     if(characterArr.length%2===0){
         let middle = characterArr.length/2;
         for(let i=0; i<middle; i++){
